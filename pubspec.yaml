@@ -1,0 +1,45 @@
+name: myapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: ^3.9.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+
+
+  # 🔥 FIREBASE CORE (WAJIB)
+  firebase_core: ^3.1.0
+
+
+  # 🔥 FIRESTORE (UNTUK ARTIKEL UAS KAMU)
+  cloud_firestore: ^5.4.0
+  firebase_auth: ^5.7.0
+
+
+  # ✨ TAMBAHAN: Untuk Fitur Unggah & Simpan Foto Profil
+  image_picker: ^1.1.2
+  firebase_storage: ^12.3.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
